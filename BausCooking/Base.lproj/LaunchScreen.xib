@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Food-Art-39.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="0xD-Ad-5Z4">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+                    <animations/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Baus Cooking" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="neT-ac-Fos">
+                    <rect key="frame" x="117" y="86" width="247" height="41"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="41" id="twY-fI-UBw"/>
+                        <constraint firstAttribute="width" constant="247" id="vsa-Dc-dRA"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright(c) 2015 Group 7. All rights reserved." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O1f-mg-qjM">
+                    <rect key="frame" x="63" y="451" width="354" height="21"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="0xD-Ad-5Z4" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="9EX-fX-Z6m"/>
+                <constraint firstAttribute="bottom" secondItem="0xD-Ad-5Z4" secondAttribute="bottom" id="EDn-H4-D0F"/>
+                <constraint firstItem="O1f-mg-qjM" firstAttribute="bottom" secondItem="iN0-l3-epB" secondAttribute="bottomMargin" id="Ly1-tn-rdI"/>
+                <constraint firstItem="neT-ac-Fos" firstAttribute="centerX" secondItem="0xD-Ad-5Z4" secondAttribute="centerX" id="MAT-PC-O0p"/>
+                <constraint firstAttribute="trailing" secondItem="0xD-Ad-5Z4" secondAttribute="trailing" id="Phv-Tv-GcN"/>
+                <constraint firstItem="O1f-mg-qjM" firstAttribute="centerX" secondItem="neT-ac-Fos" secondAttribute="centerX" id="anP-r1-rPm"/>
+                <constraint firstItem="0xD-Ad-5Z4" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="dv6-qb-ncH"/>
+                <constraint firstItem="neT-ac-Fos" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="86" id="od5-Pb-zf0"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Food-Art-39.jpg" width="900" height="900"/>
+    </resources>
+</document>
